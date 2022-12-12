@@ -1,0 +1,134 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+[class*=fontawesome-]:before {
+  font-family: "FontAwesome", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+*:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background: #222;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: #FFF;
+}
+
+.container {
+  max-width: 60em;
+  min-width: 45em;
+  margin: 0 auto;
+  padding: 0 0em;
+  text-align: center;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  margin: 0 auto;
+  top: 0;
+  z-index: 3;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  float: right;
+}
+nav li {
+  display: inline-block;
+  padding: 2em;
+  text-align: center;
+  transition: all 0.2s;
+}
+nav li:last-child {
+  padding-right: 0;
+}
+nav a {
+  color: #FFF;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+nav a:hover {
+  color: #DDD;
+}
+
+#icon {
+  display: inline-block;
+  padding-top: 0.7em;
+  font-size: 2em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#nav-bg {
+  background: #222;
+  position: fixed;
+  height: 5em;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+}
+
+header {
+  position: relative;
+  background-color: #ED5565;
+  padding: 10em 0 8em;
+  z-index: 2;
+}
+header h1 {
+  font-size: 4em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#about {
+  background: #E7E3DA;
+  height: 70em;
+  padding: 5em 0;
+}
+#about p {
+  line-height: 2em;
+  font-size: 1.4em;
+  margin: 0;
+  color: #222;
+}
+.container2 {
+  max-width: 60em;
+  min-width: 45em;
+  margin: 0 auto;
+  padding: 0 0em;
+  text-align: left;
+}
+
+a.class1 {color:white;}
+a.class1:link  {text-decoration: none; color: white;}
+a.class1:visited {text-decoration: none; color: white;}
+a.class1:hover {text-decoration: none; color: #DDD;}
+a.class1:active {text-decoration: none; color: white;}
+
+
+a.class2 {color:red;}
+a.class2:link {text-decoration: none; color: black;}
+a.class2:visited {text-decoration: none; color: black;}
+a.class2:hover {text-decoration: none; color: #ED5565;}
+a.class2:active {text-decoration: none; color: black;}
+
+h1 span {
+    display: block;
+}
+h1 span.black {
+    color: black;
+}
+h1 span.med-grey {
+    color: grey;
+}
+h1 span.dark-grey {
+    color: darkgrey;
+}
+
